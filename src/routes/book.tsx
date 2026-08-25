@@ -13,7 +13,7 @@ import {
 } from "@/lib/bookings";
 
 export const Route = createFileRoute("/book")({
-  validateSearch: (search: Record<string, unknown>): { package?: PackageId } => ({
+  validateSearch: (search: Record<string, unknown>): { package?: PackageId | undefined } => ({
     package: search["package"] === "half" || search["package"] === "full" ? (search["package"] as PackageId) : undefined,
   }),
   head: () => ({
