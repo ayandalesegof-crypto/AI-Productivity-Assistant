@@ -6,7 +6,7 @@ export const PACKAGES = {
     name: "Half Day",
     price: "R2,500",
     priceValue: 2500,
-    features: ["3 Hours of Photography", "Professional photoshoot experience"],
+    features: ["3 Hours of Photography", "60 Professionally Edited Images"],
   },
   full: {
     id: "full",

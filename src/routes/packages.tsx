@@ -8,7 +8,7 @@ export const Route = createFileRoute("/packages")({
       {
         name: "description",
         content:
-          "Photography packages at Miss A Studios: Half Day (R2,500, 3 hours) and Full Day (R5,500, 7 hours + 100 edited images).",
+          "Photography packages at Miss A Studios: Half Day (R2,500, 3 hours + 60 edited images) and Full Day (R5,500, 7 hours + 100 edited images).",
       },
       { property: "og:title", content: "Packages — Miss A Studios" },
       {
