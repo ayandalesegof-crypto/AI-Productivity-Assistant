@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import logoAsset from "@/assets/miss-a-logo.png.asset.json";
+import logoAsset from "@/assets/miss-a-logo-new.png.asset.json";
 
 /**
  * Official Miss A Studios logo (burgundy "A." monogram, transparent background).
